@@ -1,0 +1,62 @@
+#Responses {
+  text-align: center;
+  background-color: #4a2e27;
+  padding: 20px;
+}
+
+.Responses-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Responses-list .response {
+  margin: 20px 0;
+  max-width: 400px;
+}
+
+.Responses-list .response h3 {
+  margin: 10px 0;
+}
+
+.Responses-list .response p {
+  font-size: 14px;
+  color: #6910b8;
+}
+
+.why-choose-us {
+  margin: 20px 0;
+}
+
+.why-choose-us h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: rgb(105, 16, 184);
+  position: relative;
+  animation: blinkAndMove 1s infinite;
+}
+
+@keyframes blinkAndMove {
+  0%, 100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(10px);
+  }
+}
+
+ .why-choose-us  {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #ffffff;
+  
+} 
+
+.why-choose-us li::before {
+  content: '\2605';
+  color:rgb(105, 16, 184); 
+  margin-right: 5px;
+}
