@@ -1,6 +1,4 @@
 
-
-
 import React, { Component } from 'react'
 import './Timeline.css';
 export class Timeline extends Component {
@@ -104,13 +102,6 @@ export class Timeline extends Component {
     </p>
   </div>
   <p></p>
-
-
-
-
-
-
-
 </div>
   </div>
       
@@ -145,62 +136,3 @@ export default Timeline
 
 
 
-// import React, { Component } from 'react'
-// import './Timeline.css';
-
-// export class Timeline extends Component {
-//   render() {
-
-//     return (
-//       <div class="container">
-//   <div class="timeline">
-//     <div class="line"></div>
-
-//     {/* <!-- Checkpoints and Labels --> */}
-//     <div class="checkpoint"></div>
-//     <div class="checkpoint-label" >2020</div>
-
-//     <div class="checkpoint1" ></div>
-//     <div class="checkpoint-label" >2022</div>
-
-//     <div class="checkpoint2" ></div>
-//     <div class="checkpoint-label" >2024</div>
-
-//     <div class="checkpoint3" ></div>
-//     <div class="checkpoint-label" >2026</div>
-
-//     <div class="checkpoint4" ></div>
-//     <div class="checkpoint-label" >2028</div>
-
-//     {/* <!-- Description Boxes --> */}
-//     <div class="description-box" >
-//         <div class="milestone-title">Year 2020</div>
-//         <div class="milestone-description">Description goes here...</div>
-//     </div>
-
-//     <div class="description-box1" >
-//         <div class="milestone-title">Year 2022</div>
-//         <div class="milestone-description">Description goes here...</div>
-//     </div>
-
-//     <div class="description-box2" >
-//         <div class="milestone-title">Year 2024</div>
-//         <div class="milestone-description">Description goes here...</div>
-//     </div>
-
-//     <div class="description-box3" >
-//         <div class="milestone-title">Year 2026</div>
-//         <div class="milestone-description">Description goes here...</div>
-//     </div>
-
-//     <div class="description-box4" >
-//         <div class="milestone-title">Year 2028</div>
-//         <div class="milestone-description">Description goes here...</div>
-//     </div>
-// </div>
-// </div>
-// )
-//   }
-// }
-
-// export default Timeline
