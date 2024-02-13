@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +13,6 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 .contactContainer {
-  /* margin-top: 30%; */
   width: 50%;
   display: flex;
   background: #000000;
@@ -86,7 +84,7 @@ textarea.input {
 .inputBox span {
   position: absolute;
   left: 0;
-  padding: 10px;
+  padding: 38px 2px 25px; 
   margin-left: 10px;
   font-size: 16px;
   pointer-events: none;
