@@ -1,33 +1,26 @@
-/* Navbar.css */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 0;
-  
+    padding: 0; 
   }
-  
-  nav {
-    background-color: #000000; /* Dark blue-gray background color */
+   nav {
+    background-color: #000000;
     overflow: hidden;
-  }
-  
+  } 
   nav a {
    float: inline-start;
     display: block;
-    color: #ecf0f1; /* Light gray text color */
+    color: #ecf0f1; 
     text-align: center;
-    padding: 14px 20px; /* Increased padding for better spacing */
+    padding: 14px 20px; 
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s, color 0.3s; 
   }
-  
   nav a:hover {
-    background-color: #b00262; /* Highlight color on hover */
-    color: #fff; /* White text color on hover */
+    background-color: #b00262; 
+    color: #fff;
   }
-  
-  /* Add a subtle shadow for depth */
   nav {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
