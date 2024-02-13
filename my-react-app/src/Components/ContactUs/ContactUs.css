@@ -139,20 +139,15 @@ textarea.input {
 }
 .Social-icons h4{
   color: #f6f6f6;
-  font-weight: initial;
-  
+  font-weight: initial; 
 }
-
 .Social-icons{
   margin-top: 60px; /* Add margin to the top */
   justify-content: space-between;
   margin-top: 20px;
- 
 }
-
 .Social-icons a{
-  margin-left: 30px;
-  
+  margin-left: 30px; 
 }
 .contactinfo{
   border-radius: 20px;
@@ -160,8 +155,6 @@ textarea.input {
   margin-left: 1px;
   background-color: #000000;
   height: 58%;
-  /* background: linear-gradient(to right, #212121, #121212); */
-  /* color: #000000; */
   position: relative;
  width: 80%;  
 
